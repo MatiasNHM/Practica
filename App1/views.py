@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-def vista1(request):
+def uno(request):
     return HttpResponse("""
                         <h1>Rama 1</h1>
                         <br>
